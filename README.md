@@ -27,7 +27,7 @@ netstat -ano|findstr 48000
 # 杀死进程命令：
 
 ```
-taskKill /PID 17264 /T /F
+taskKill /T /F /PID 17264
 ```
 
 
