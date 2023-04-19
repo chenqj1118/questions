@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Form Key="Empty" Caption="空白" FormType="View" Platform="Mobile" Version="29">
+    <Body>
+        <Block>
+            <FlexFlowLayoutPanel Key="FlexFlowLayoutPanel1" Caption="FlexFlowLayoutPanel1">
+                <Format BackColor="#f2f2f2"/>
+                <LinearLayoutPanel Key="LinearShell#Label1">
+                    <Label Key="Label1" BottomMargin="5px" Height="40px" LeftMargin="5px" RightMargin="5px" TopMargin="5px" Weight="1.0" Width="0px"/>
+                </LinearLayoutPanel>
+            </FlexFlowLayoutPanel>
+        </Block>
+    </Body>
+    <NavigationBar HasLeftButton="true">
+        <LeftButton>
+            <![CDATA[Show("tabGroup")]]>
+        </LeftButton>
+    </NavigationBar>
+</Form>

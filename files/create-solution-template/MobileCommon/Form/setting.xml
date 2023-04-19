@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Form Key="Setting" Caption="设置" Platform="Mobile" Version="30" FormType="View">
+    <OperationCollection>
+        <OperationCollection Key="optGroup1" Caption="新增操作集合">
+            <Operation Key="optKey1" Caption="确定">
+                <Action>
+                    <![CDATA[Logout()]]>
+                </Action>
+            </Operation>
+            <Operation Key="optKey2" Caption="取消"/>
+        </OperationCollection>
+    </OperationCollection>
+    <Body>
+        <Block>
+            <TableView Caption="TableView1" Key="TableView1">
+                <Format BackColor="#f2f2f2"/>
+                <TableRowCollection>
+                    <TableRow Key="row1">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel1" LeftPadding="10px">
+                            <Label Key="Label1" Caption="账号与安全" Height="auto" Weight="1.0" Width="pref">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image1" Caption="Image1" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" TopMargin="3px" Width="20px"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row2" TopMargin="10px">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel2" LeftPadding="10px">
+                            <Label Key="Label2" Caption="新消息通知" Height="auto" Weight="1.0" Width="pref" BorderColor="#f2f2f2" BorderStyle="none none solid none">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image2" Caption="Image2" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" TopMargin="3px" Width="20px"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row3">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel3" LeftPadding="10px">
+                            <Label Key="Label3" Caption="隐私" Height="auto" Weight="1.0" Width="pref" BorderColor="#f2f2f2" BorderStyle="none none solid none">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image3" Caption="Image3" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" TopMargin="3px" Width="20px"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row4">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel4" LeftPadding="10px">
+                            <Label Key="Label4" Caption="通用" Height="auto" Weight="1.0" Width="pref">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image4" Caption="Image4" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" TopMargin="3px" Width="20px"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row5" TopMargin="10px">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel5" LeftPadding="10px">
+                            <Label Key="Label5" Caption="帮助与反馈" Height="auto" Weight="1.0" Width="pref" BorderColor="#f2f2f2" BorderStyle="none none solid none">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image5" Caption="Image5" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" TopMargin="3px" Width="20px"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row6">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel6" LeftPadding="10px">
+                            <Label Key="Label6" Caption="关于博科" Height="auto" Weight="1.0" Width="pref" BorderColor="#f2f2f2" BorderStyle="none none solid none">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image6" Caption="Image6" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" TopMargin="3px" Width="20px"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row7">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel7" LeftPadding="10px">
+                            <Label Key="Label7" Caption="插件" Height="auto" Weight="1.0" Width="pref">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image7" Caption="Image7" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" TopMargin="3px" Width="20px"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row8" TopMargin="10px">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel8">
+                            <Button Key="Button8" Caption="切换账号" Height="auto" Width="auto"/>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                    <TableRow Key="row9" TopMargin="10px">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel9">
+                            <Button Key="Button9" Caption="退出登录" Height="auto" Width="auto">
+                                <OnClick>
+                                    <![CDATA[PopMenu("optGroup1", "aaaaaaaaa")]]>
+                                </OnClick>
+                            </Button>
+                        </LinearLayoutPanel>
+                    </TableRow>
+                </TableRowCollection>
+            </TableView>
+        </Block>
+    </Body>
+    <NavigationBar HasRightButton="false"/>
+</Form>

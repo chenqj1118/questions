@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Form Key="HomePage" Caption="首页" Platform="Mobile" Version="45" FormType="View">
+    <Body>
+        <Block>
+            <Container Caption="Container1" Height="pref" Key="Container1">
+                <TabGroup IndicatorColor="Transparent" IndicatorHeight="0px" Key="TabGroup1">
+                    <TabItem Icon="DefaultTemplate/Boke.png" Key="tabItem1" SelectedIcon="DefaultTemplate/BokeSelected.png" Text="博科" FormKey="Empty">
+                        <Format BackColor="#f2f2f2"/>
+                    </TabItem>
+                    <TabItem Icon="DefaultTemplate/AddressList.png" Key="tabItem2" SelectedIcon="DefaultTemplate/AddressListSelected.png" Text="通讯录" FormKey="Empty">
+                        <Format BackColor="#f2f2f2"/>
+                    </TabItem>
+                    <TabItem Icon="DefaultTemplate/Discover.png" Key="tabItem3" SelectedIcon="DefaultTemplate/DiscoverSelected.png" Text="发现" FormKey="Empty">
+                        <Format BackColor="#f2f2f2"/>
+                    </TabItem>
+                    <TabItem Icon="DefaultTemplate/MyPage.png" Key="tabItem4" SelectedIcon="DefaultTemplate/MyPageSelected.png" Text="我" FormKey="Empty">
+                        <Format BackColor="#f2f2f2"/>
+                    </TabItem>
+                </TabGroup>
+            </Container>
+        </Block>
+    </Body>
+</Form>

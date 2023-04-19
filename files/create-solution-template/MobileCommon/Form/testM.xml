@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Form Key="MyPage" Caption="我的页面" FormType="View" Platform="Mobile" Version="145">
+    <Body>
+        <Block>
+            <TableView Caption="TableView1" Key="TableView1">
+                <Format BackColor="#f2f2f2"/>
+                <TableRowCollection>
+                    <TableRow Key="row1">
+                        <GridLayoutPanel Key="GridLayoutPanel1" Caption="GridLayoutPanel1">
+                            <Image Key="Image1" Caption="Image1" X="0" Y="1" BorderColor="#ffffff" BorderRadius="8" BorderStyle="solid solid solid solid" BottomMargin="5px" Image="DefaultTemplate/My.jpg" ImageScaleType="Fit_XY" LeftMargin="25px" SourceType="Resource" TopMargin="5px" YSpan="2"/>
+                            <Label Key="Label3" Caption="ID：id_ehh7ql" X="1" Y="2" LeftMargin="15px">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Label Key="Label4" Caption="用户名" X="1" Y="1" LeftMargin="15px">
+                                <Format>
+                                    <Font Size="16" Bold="true"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image13" Caption="Image13" X="2" Y="2" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource"/>
+                            <RowDefCollection RowGap="5">
+                                <RowDef Height="30px"/>
+                                <RowDef Height="40px"/>
+                                <RowDef Height="40px"/>
+                                <RowDef Height="40px"/>
+                            </RowDefCollection>
+                            <ColumnDefCollection ColumnGap="5">
+                                <ColumnDef Width="100px"/>
+                                <ColumnDef Width="100%"/>
+                                <ColumnDef Width="30px"/>
+                            </ColumnDefCollection>
+                        </GridLayoutPanel>
+                        <RowClick>
+                            <![CDATA[Show("empty")]]>
+                        </RowClick>
+                    </TableRow>
+                    <TableRow Key="row2" BackColor="#ffffff" TopMargin="10px">
+                        <LinearLayoutPanel Height="51px" Key="LinearLayoutPanel1">
+                            <Image Key="Image2" Caption="Image2" Height="auto" Width="45px" Image="DefaultTemplate/Pay.png" ImageScaleType="Fit_Center" SourceType="Resource" RightMargin="15px" BottomMargin="10px" TopMargin="10px" LeftMargin="10px"/>
+                            <Label Key="Label2" Caption="支付" Height="50px" Weight="1.0" Width="pref">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image14" Caption="Image14" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" Width="20px" TopMargin="3px"/>
+                        </LinearLayoutPanel>
+                        <RowClick>
+                            <![CDATA[Show("empty")]]>
+                        </RowClick>
+                    </TableRow>
+                    <TableRow BackColor="#ffffff" Key="row11" TopMargin="10px">
+                        <LinearLayoutPanel Caption="LinearLayoutPanel10" Height="51px" Key="LinearLayoutPanel10">
+                            <Image Key="Image8" Caption="Image8" BottomMargin="10px" Height="auto" Image="DefaultTemplate/Collect.png" ImageScaleType="Fit_Center" RightMargin="15px" SourceType="Resource" TopMargin="10px" Width="45px" LeftMargin="10px"/>
+                            <Label Key="Label5" Caption="收藏" Height="50px" Weight="1.0" Width="pref" BorderColor="#f2f2f2" BorderStyle="none none solid none">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image15" Caption="Image15" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" Width="20px" TopMargin="3px"/>
+                        </LinearLayoutPanel>
+                        <RowClick>
+                            <![CDATA[Show("empty")]]>
+                        </RowClick>
+                    </TableRow>
+                    <TableRow BackColor="#ffffff" Key="row12">
+                        <LinearLayoutPanel Caption="LinearLayoutPanel11" Height="51px" Key="LinearLayoutPanel11">
+                            <Image Key="Image9" Caption="Image9" BottomMargin="10px" Height="auto" Image="DefaultTemplate/Image.png" ImageScaleType="Fit_Center" RightMargin="15px" SourceType="Resource" TopMargin="10px" Width="45px" LeftMargin="10px"/>
+                            <Label Key="Label6" Caption="相册" Height="50px" Weight="1.0" Width="pref" BorderColor="#f2f2f2" BorderStyle="none none solid none">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image16" Caption="Image16" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" Width="20px" TopMargin="3px"/>
+                        </LinearLayoutPanel>
+                        <RowClick>
+                            <![CDATA[Show("empty")]]>
+                        </RowClick>
+                    </TableRow>
+                    <TableRow BackColor="#ffffff" Key="row13">
+                        <LinearLayoutPanel Caption="LinearLayoutPanel12" Height="51px" Key="LinearLayoutPanel12">
+                            <Image Key="Image10" Caption="Image10" BottomMargin="10px" Height="auto" Image="DefaultTemplate/CardHolder.png" ImageScaleType="Fit_Center" RightMargin="15px" SourceType="Resource" TopMargin="10px" Width="45px" LeftMargin="10px"/>
+                            <Label Key="Label7" Caption="卡包" Height="50px" Weight="1.0" Width="pref" BorderColor="#f2f2f2" BorderStyle="none none solid none">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image17" Caption="Image17" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" Width="20px" TopMargin="3px"/>
+                        </LinearLayoutPanel>
+                        <RowClick>
+                            <![CDATA[Show("empty")]]>
+                        </RowClick>
+                    </TableRow>
+                    <TableRow BackColor="#ffffff" Key="row14">
+                        <LinearLayoutPanel Caption="LinearLayoutPanel13" Height="51px" Key="LinearLayoutPanel13">
+                            <Image Key="Image11" Caption="Image11" BottomMargin="10px" Height="auto" Image="DefaultTemplate/Expression.png" ImageScaleType="Fit_Center" RightMargin="15px" SourceType="Resource" TopMargin="10px" Width="45px" LeftMargin="10px"/>
+                            <Label Key="Label8" Caption="表情" Height="50px" Weight="1.0" Width="pref">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image18" Caption="Image18" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" Width="20px" TopMargin="3px"/>
+                        </LinearLayoutPanel>
+                        <RowClick>
+                            <![CDATA[Show("empty")]]>
+                        </RowClick>
+                    </TableRow>
+                    <TableRow BackColor="#ffffff" Key="row15" TopMargin="10px">
+                        <LinearLayoutPanel Caption="LinearLayoutPanel14" Height="51px" Key="LinearLayoutPanel14">
+                            <Image Key="Image12" Caption="Image12" BottomMargin="10px" Height="auto" Image="DefaultTemplate/Setting.png" ImageScaleType="Fit_Center" RightMargin="15px" SourceType="Resource" TopMargin="10px" Width="45px" LeftMargin="10px"/>
+                            <Label Key="Label9" Caption="设置" Height="50px" Weight="1.0" Width="pref">
+                                <Format>
+                                    <Font Size="16"/>
+                                </Format>
+                            </Label>
+                            <Image Key="Image19" Caption="Image19" Height="40px" Image="DefaultTemplate/Arrow.png" ImageScaleType="Fit_Center" RightMargin="10px" SourceType="Resource" Width="20px" TopMargin="3px"/>
+                        </LinearLayoutPanel>
+                        <RowClick>
+                            <![CDATA[Show("setting")]]>
+                        </RowClick>
+                    </TableRow>
+                </TableRowCollection>
+            </TableView>
+        </Block>
+        <ViewCollection>
+            <View Caption="Caption" Key="Android"/>
+        </ViewCollection>
+    </Body>
+    <NavigationBar HasLeftButton="false" Title=" " HasRightButton="true" BackColor="#ffffff">
+        <RightButton Icon="DefaultTemplate/Camera.png">
+            <![CDATA[UUID();]]>
+        </RightButton>
+        <LeftButton>
+            <![CDATA[]]>
+        </LeftButton>
+    </NavigationBar>
+</Form>

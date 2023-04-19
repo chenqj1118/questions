@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Form Key="MobileAppLogin" Caption="登录" Platform="Mobile" Version="64" HasNavigationBar="false" FormType="View" Authenticate="false">
+    <Body>
+        <Block>
+            <LinearLayoutPanel Key="LinearLayoutPanel1" Caption="LinearLayoutPanel" Orientation="Vertical" LeftPadding="20px" RightPadding="20px">
+                <Format BackColor="#384f87"/>
+                <Image Key="Image1" Caption="Image1" Height="50px" Width="auto" TopMargin="70px" Image="DefaultTemplate/Logo.png" ImageScaleType="Fit_Center" SourceType="Resource"/>
+                <LinearLayoutPanel Key="LinearLayoutPanel2" Caption="LinearLayoutPane2" Orientation="Vertical" BorderRadius="5" Height="130px" LeftMargin="0px" RightMargin="0px" TopMargin="40px" Width="auto">
+                    <TextEditor Key="code" Caption="Email or phone number" BorderRadius="0" BorderStyle="none none none none" EmbedTextSize="22" Height="0px" LeftMargin="0px" LeftPadding="20px" PromptText="Email or phone number" RightMargin="0px" TopMargin="0px" Weight="1.0" Width="auto">
+                        <Format BackColor="#e2e2e2">
+                            <Font Size="18"/>
+                        </Format>
+                    </TextEditor>
+                    <PasswordEditor Key="password" Caption="Password" BorderColor="#cccccc" BorderStyle="solid none none none" EmbedTextSize="22" Height="0px" LeftMargin="0px" LeftPadding="20px" PromptText="Password" RightMargin="0px" ShowSwitchIcon="false" Weight="1.0" Width="auto">
+                        <Format BackColor="#e2e2e2">
+                            <Font Size="18"/>
+                        </Format>
+                    </PasswordEditor>
+                </LinearLayoutPanel>
+                <Button Key="Button1" Caption="登录" Height="65px" LeftMargin="0px" RightMargin="0px" TopMargin="15px" Width="auto" BorderRadius="5" BorderStyle="none none none none">
+                    <Format BackColor="#4a5c8e" ForeColor="#a6b0c5">
+                        <Font Size="22"/>
+                    </Format>
+                    <OnClick>
+                        <![CDATA[Login(code,password);SetResult(true);Close();]]>
+                    </OnClick>
+                </Button>
+            </LinearLayoutPanel>
+        </Block>
+    </Body>
+    <NavigationBar/>
+</Form>
